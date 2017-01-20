@@ -1,0 +1,41 @@
+#harsha_img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top{
+	margin: 10px 10px;
+	text-align: center;
+}
+
+#type{
+	padding: 10px 10px;
+}
+
+#humblefool{
+	color: white;
+}
+
+#intro{
+	font-size: 50px;
+}
+
+#footer{
+	float: right;
+}
+
+#brief_about{
+	width: 48.3333%;
+	margin-top: 50px;
+}
+
+#short_about{
+		font-size: 20px;
+
+}
+
+#short_about1{
+		font-size: 20px;
+
+}
