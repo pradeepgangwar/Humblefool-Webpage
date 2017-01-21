@@ -13,8 +13,9 @@
 	padding: 10px 10px;
 }
 
-#humblefool{
+.humblefool{
 	color: white;
+	margin-top: 5px;
 }
 
 #intro{
@@ -27,7 +28,6 @@
 
 #brief_about{
 	width: 48.3333%;
-	margin-top: 50px;
 }
 
 #short_about{
@@ -38,4 +38,8 @@
 #short_about1{
 		font-size: 20px;
 
+}
+
+#love{
+	width: 500px;
 }
