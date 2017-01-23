@@ -19,7 +19,7 @@
 }
 
 #intro{
-	font-size: 50px;
+	font-size: 38px;
 }
 
 #footer{
@@ -56,3 +56,21 @@
 	text-align: center;
 }
 
+.year-header{
+	font-size:25px;
+	color: #2196F3;
+	text-align: left;
+}
+
+.life-look-div ul li:nth-child(odd){
+	background-color: rgb(247,247,247);
+}
+
+.life-look-div{
+	margin-bottom: 20px;
+}
+
+.life-description{
+	font-size: 16px;
+	padding: 5px 0px 5px 0px;
+}
