@@ -19,7 +19,7 @@
 }
 
 #intro{
-	font-size: 38px;
+	font-size: 28px;
 }
 
 #footer{
@@ -60,6 +60,7 @@
 	font-size:25px;
 	color: #2196F3;
 	text-align: left;
+	font-weight: bold;
 }
 
 .life-look-div ul li:nth-child(odd){
@@ -73,4 +74,33 @@
 .life-description{
 	font-size: 16px;
 	padding: 5px 0px 5px 0px;
+}
+
+.tribute{
+	text-align: center;
+	background-color: #242943;
+	margin-bottom: 0px;
+	height: 265px;
+}
+
+#tribute{
+		font-size: 20px;
+		color: white;
+		margin-top: 25px;
+		line-height: 28px;
+}
+
+.rip{
+	font-size: 35px;
+	line-height: 40px;
+}
+
+.material-icons.red { color: red; }
+
+#cup_des p{
+	font-size: 17px;
+}
+
+#humblefoolcup{
+	font-size: 38px;
 }
