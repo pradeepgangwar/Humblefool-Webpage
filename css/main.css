@@ -10,12 +10,17 @@
 }
 
 #type{
-	padding: 10px 10px;
+	padding: 7px 7px;
 }
 
 .humblefool{
 	color: white;
-	margin-top: 5px;
+	margin-top: 3px;
+	padding-top: 2.5px;
+}
+
+#header_tribute{
+	color: #C29898;
 }
 
 #intro{
