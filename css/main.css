@@ -24,7 +24,7 @@
 }
 
 #intro{
-	font-size: 28px;
+	font-size: 23px;
 }
 
 #footer{
@@ -62,7 +62,7 @@
 }
 
 .year-header{
-	font-size:25px;
+	font-size:18px;
 	color: #2196F3;
 	text-align: left;
 	font-weight: bold;
@@ -74,10 +74,12 @@
 
 .life-look-div{
 	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .life-description{
-	font-size: 16px;
+	font-size: 14px;
 	padding: 5px 0px 5px 0px;
 }
 
