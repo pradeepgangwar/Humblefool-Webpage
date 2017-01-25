@@ -1,7 +1,7 @@
 $(document).ready(function(){
 var theLetters = "abcdefghijklmnopqrstuvwxyz#%&^+=-"; //You can customize what letters it will cycle through
 var ctnt = "Harsha Suryanarayana"; // Your text goes here
-var speed = 13; // ms per frame
+var speed = 20; // ms per frame
 var increment = 8; // frames per step. Must be >2
 
     
