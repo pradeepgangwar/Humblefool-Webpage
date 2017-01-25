@@ -27,9 +27,22 @@
 	font-size: 23px;
 }
 
-#footer{
-	float: right;
+
+#contact{
+	text-align: center;
 }
+
+
+#contact ul{
+	text-align: center;
+	margin: 5px 5px;
+}
+
+
+#contact ul li a{
+	padding-left: 10px;
+}
+
 
 #brief_about{
 	width: 48.3333%;
@@ -43,10 +56,6 @@
 #short_about1{
 		font-size: 20px;
 
-}
-
-#love{
-	width: 500px;
 }
 
 #life-events{
@@ -73,7 +82,7 @@
 }
 
 .life-look-div{
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -111,3 +120,14 @@
 #humblefoolcup{
 	font-size: 38px;
 }
+
+#love{
+	text-align: center;
+	width: 900px;
+	margin: auto auto;
+}
+
+#header_humblefool_effect:hover{
+cursor: pointer;
+text-shadow: 0 4px 0 rgba(0,255,0,0.6),4px 4px 0 rgba(0,0,255,0.4),-4px -4px 0 rgba(255,0,0,0.2),0 1px 0 rgba(255,255,0,0.8) ,0 1px 0 rgb(255,255,255), 0 -4px 0 rgba(255,0,255,0.6),0 -2px 0 rgba(255,255,255,0.4);
+  }

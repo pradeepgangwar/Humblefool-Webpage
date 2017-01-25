@@ -65,9 +65,10 @@
         </h1>
         <div class="top">
             <img src="img/profile.jpg" alt="Harsha Suryanarayana" width="240" height="240" class="circle responsive-img" id="harsha_img">
-            <h1 class="responsive-self-choosen"> Harsha Suryanarayana </h1>
+            <!--h1 class="responsive-self-choosen"> Harsha Suryanarayana </h1-->
+            <h1 class="responsive-self-choosen" id="output"></h1>
             <h5 class="humblefool" id="header_tribute"> Tribute to </h5>
-            <h3 class="humblefool"> @humblefool </h3>
+            <h3 class="humblefool" id="header_humblefool_effect"> @humblefool </h3>
         </div>
     </div>
 </div>
@@ -79,26 +80,9 @@
             <div  class="col s12">
                 <h2 class="center header text_h2" id="intro"><span id="intro-responsive"> <span class="span_h2">Harsha Suryanarayana</span>, popularly known as <span class="span_h2"> humblefool</span> to the coding community, and as Lord among his friends and the people close to him. Harsha was the best coder India has ever produced. Lord was working in a start-up (that he co-founded with Animesh Nayan) <b>MyCodeSchool</b>. Harsha was alumni of <b>Indian Institute of Information Technology, Allahabad</b>. We lost him in a <i>hit and run accident</i> on the night of 15th June'14.</span></h2>
             </div>
-<!--
-            <div  class="col s12 m4" id="brief_about">
-                <div class="center promo promo-example">
-                    <i class="large material-icons"> perm_identity </i>
-                    <h5 class="promo-caption"><strong> About Harsha</strong> </h5>
-                    <p class="light center" id="short_about" >Harsha was the best coder India has ever produced. He was one of the first red coder from the country and continued to dominate until his last SRM.  Lord was working in a start-up (that he co-founded with Animesh Nayan) MyCodeSchool. Harsha was alumni of Indian Institute of Inforamtion Technology, Allahabad.</p>
-                </div>
-            </div>
-            
-            <div class="col s12 m4" id="brief_about">
-                <div class="center promo promo-example">
-                    <i class="large material-icons"> thumb_up </i>
-                    <h5 class="promo-caption"><strong>Some achievements</strong>  </h5>
-                    <p class="light center" id="short_about1">He was the TCO world finalist twice, and Google Code Jam (GCJ) once.He worked on to make DP his strongest area (for the non-programming people, DP is Dynamic Programming and is one of the toughest things to master in programming). </p>
-                </div>
--->
             </div>
         </div>
     </div>
-</div>
 
 <div class="life-look-div">
     <h2 class="header text_b" id="life-look"> </h2>
@@ -164,7 +148,7 @@
             <i class="fa fa-desktop circle" aria-hidden="true"></i>
             <div class="life-description">
                 <span class="year-header"> MyCode School </span>
-                <p class="life-description"> MyCodeSchool is one of the startup of Harsha Suryanarayana. MyCodeSchool provides vido lessons to programming concepts. <br> <a href="https://www.youtube.com/user/mycodeschool"> Click here to navigate to MyCodeSchool</a></p>
+                <p class="life-description"> MyCodeSchool is one of the startup of Harsha Suryanarayana. <b>MyCodeSchool</b> provides vido lessons to programming concepts. <br> <a href="https://www.youtube.com/user/mycodeschool"> Click here to navigate to MyCodeSchool</a></p>
             </div>
             </li>
 
@@ -250,58 +234,81 @@
     </div>
 </div>
 
--->
 
-<!-- Removing Parallax and footer
 
-<div class="parallax-container">
-    <div class="parallax"><img src="img/iiit.jpg"></div>
-</div>
-
-<footer id="contact" class="page-footer default_color scrollspy">
+<footer id="footer" class="page-footer default_color scrollspy">
     <div class="container">  
         <div class="row">
             <div class="col l3 s12">
-                <h5 class="white-text"> &copy HumblefoolCUP </h5>
-                <ul>
-                    <li><a class="white-text" href=""> Home </a></li>
-                </ul>
-                <h4 class="white-text" id="love"> Made with love By: Students of IIITA </h4>
+                <h6 class="white-text" id="love"> Made with <i class="fa fa-heart circle" aria-hidden="true"></i>
+ By <a href="https://fossiiita.github.io/opencodecollab/">OpenCode</a> participant: Pradeep Gangwar </h6>
             </div>
+        </div>
           
-            <div class="col l3 s12" id="footer">
-                <h5 class="white-text">Social</h5>
+            <div class="col l3 s12" id="contact">
+                <h6 class="white-text">Social:</h6>
                 <ul>
                     <li>
-                        <a class="white-text" href="https://www.facebook.com/">
+                        <a class="white-text" href="https://www.facebook.com/pradeep.gangwar.391">
                             <i class="small fa fa-facebook-square white-text"></i> Facebook
                         </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://github.com/">
+                    
+                        <a class="white-text" href="https://github.com/pradeepgangwar">
                             <i class="small fa fa-github-square white-text"></i> Github
                         </a>
                     </li>
-                    <li>
-                        <a class="white-text" href="https://www.linkedin.com/in/">
-                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
-                        </a>
-                    </li>
                 </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright default_color">
-        <div class="container">
-             Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
-        </div>
+            </div>        
     </div>
 </footer>
 -->
 
+ <footer class="page-footer default_color">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col l3 s12">
+            <h5 class="white-text">ORGANISERS</h5>
+            <ul>
+              <li>
+                <a class="white-text">1st organiser - 0000000000</a>
+              </li>
+              <li>
+                <a class="white-text" >2nd organiser - 0000000000</a>
+              </li>
+              <li>
+                <a class="white-text" >3rd organiser - 0000000000</a>
+              </li>
+             
+            </ul>
+          </div>
+          
+          <div align="right" class="col l3 s35 m10">
+            
+            <ul>
+              <li>
+                <a class="white-text" href="https://aparoksha.iiita.ac.in/">APAROKSHA</a>
+              </li>
+              <li>
+                <a class="white-text" href="#!">TEAM PAGE</a>
+              </li>
+             
+              
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">In the memory of
+          HARSHA SURYANARAYANA by participants of  <a class="white-text" href="https://fossiiita.github.io/opencodecollab/">OpenCode</a>
+      </div>
+    </footer>
+
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+    <script src="js/main.js"></script>
 
     </body>
 </html>
